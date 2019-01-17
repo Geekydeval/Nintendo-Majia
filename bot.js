@@ -88,5 +88,8 @@ bot.on('message', function(message) {
     var j23 = schedule.scheduleJob('0 23 * * *', 'Europe/Madrid', function(){
       message.channel.send('**Son las 23:00**: Mor empieza ya a sentirse cansado, le queda 1 hora de actividad.');
     });
+      var j24 = schedule.scheduleJob('0 10 7 * *', 'Europe/Madrid', function(){
+      message.channel.send('**Son las 23:00**: Mor empieza ya a sentirse cansado, le queda 1 hora de actividad.');
+    });
   }
 });
