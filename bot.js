@@ -2,20 +2,43 @@ var Discord = require('discord.js');
 var schedule = require('node-schedule-tz');
 var bot = new Discord.Client()
 
-bot.login(process.env.BOT_TOKEN);
+bot.login('NTM1Mzg3OTk5MzgzMzIyNjI0.DyHa0w.HZK_h_UY37_gl6P6ScQuYmT6Ryw');
 
 bot.on('ready', function() {
     console.log(bot.user.username);
 });
 
-function frasestimer() {
-  var rand = ['frase estandar'];
+function frasescomida() {
+  var rand = ['Cuervito fresco', 'Ensalada de doomed', 'Chuletón a la drama', 'Direct a la provenzal', 'Cuervo con salsa de Allegrian', 'Foskitos', 'Una selección de tacos que llegarán dentro de 6 horas'
+              'Una ración de ports recién hechos'];
+
+  return rand[Math.floor(Math.random()*rand.length)];
+}
+
+function frasestvcine() {
+  var rand = ['Zafarrancho en el Rancho','El vengador tóxico', 'El ataque de los tomates asesinos'];
+
+  return rand[Math.floor(Math.random()*rand.length)];
+}
+
+function frasesusuario() {
+  var rand = ['Mor', 'Xilos', 'Hector', 'Spoon', 'Ralye', 'Alem', 'Pachita', 'Morro', 'Allegrian', 'Tonio', 'Irvine', 'Aretno',
+              'El ranger verde', 'Rul', 'Anti', 'Selve', 'Lanir', 'Frijolito', 'Kamalito', 'Darkam', 'Novalito', 'On3', 'Soe', 'Quetz'];
+
+  return rand[Math.floor(Math.random()*rand.length)];
+}
+
+function frasespareja() {
+  var rand = ['Xillegrian', 'Pachartinez', 'Ralyem', 'Selvespoon', 'Markonir', 'Moretno', 'Irvimelon', 'On3roid', 'Darkamertno', 'Frijonir', 'Markotonudo',];
 
   return rand[Math.floor(Math.random()*rand.length)];
 }
 
 bot.on('message', function(message) {
   if (message.content === "$loop") {
+
+    console.log('Has metido la clave');
+
     var j0 = schedule.scheduleJob('0 0 * * *', function(){
       message.channel.send('**Son las 01:00**: Quetz joins the battle.');
     });
@@ -53,7 +76,7 @@ bot.on('message', function(message) {
       message.channel.send('**Son las 12:00**: ¿Que noticia habrá publicado hoy Cristina? seguro que Mor está deseando leerla de forma sosegada.');
     });
     var j12 = schedule.scheduleJob('0 12 * * *', function(){
-      message.channel.send('**Son las 13:00**: El menú de hoy es cuervito fresco.');
+      message.channel.send('**Son las 13:00**: El menú de hoy es ' + (frasescomida()));
     });
     var j13 = schedule.scheduleJob('0 13 * * *', function(){
       message.channel.send('**Son las 14:00**: 2 horas hasta el anuncio del direct, esto empieza a ponerse interesante');
