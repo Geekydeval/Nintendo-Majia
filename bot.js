@@ -2,7 +2,7 @@ var Discord = require('discord.js');
 var schedule = require('node-schedule-tz');
 var bot = new Discord.Client()
 
-bot.login('NTM1Mzg3OTk5MzgzMzIyNjI0.DyHa0w.HZK_h_UY37_gl6P6ScQuYmT6Ryw');
+bot.login(process.env.BOT_TOKEN);
 
 bot.on('ready', function() {
     console.log(bot.user.username);
@@ -75,8 +75,8 @@ bot.on('message', function(message) {
     var j11 = schedule.scheduleJob('0 11 * * *', function(){
       message.channel.send('**Son las 12:00**: ¿Que noticia habrá publicado hoy Cristina? seguro que Mor está deseando leerla de forma sosegada.');
     });
-    var j12 = schedule.scheduleJob('0 12 * * *', function(){
-      message.channel.send('**Son las 13:00**: El menú de hoy es una ración de ports');
+   var j12 = schedule.scheduleJob('0 12 * * *', function(){
+      message.channel.send('**Son las 13:00**: El menú de hoy es ' + (frasescomida()));
     });
     var j13 = schedule.scheduleJob('0 13 * * *', function(){
       message.channel.send('**Son las 14:00**: 2 horas hasta el anuncio del direct, esto empieza a ponerse interesante');
