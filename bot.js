@@ -73,13 +73,13 @@ bot.on('message', function(message) {
       message.channel.send('**Son las 10:00**: Un simpatico redactor de Vandal esta echando un vistazo a ResetERA ahora mismo, que pícaro.');
     });
     var j10 = schedule.scheduleJob('0 10 * * *', function(){
-      message.channel.send('**Son las 11:00**: ¿Ya ha hecho caca' + (frasesusuario()) + '?');
+      message.channel.send('**Son las 11:00**: ¿Ya ha hecho caca' + '\xa0' + (frasesusuario()) + '?');
     });
     var j11 = schedule.scheduleJob('0 11 * * *', function(){
       message.channel.send('**Son las 12:00**: ¿Que noticia habrá publicado hoy Cristina? seguro que Mor está deseando leerla de forma sosegada.');
     });
     var j12 = schedule.scheduleJob('0 12 * * *', function(){
-      message.channel.send('**Son las 13:00**: El menú de hoy es ' + (frasescomida()));
+      message.channel.send('**Son las 13:00**: El menú de hoy es:' + '\xa0' + (frasescomida()));
     });
     var j13 = schedule.scheduleJob('0 13 * * *', function(){
       message.channel.send('**Son las 14:00**: 2 horas hasta el anuncio del direct, esto empieza a ponerse interesante');
@@ -106,7 +106,7 @@ bot.on('message', function(message) {
       message.channel.send('**Son las 21:00**: Para cenar hoy... clavos.');
     });
     var j21 = schedule.scheduleJob('0 21 * * *', function(){
-      message.channel.send('**Son las 22:00**: Peli y mantita en casa de' + (frasespareja()) +', hoy toca: ' + (frasestvcine()));
+      message.channel.send('**Son las 22:00**: Peli y mantita en casa de' + '\xa0' + (frasespareja()) + '\xa0' + ', hoy toca: ' + '\xa0' + (frasestvcine()));
     });
     var j22 = schedule.scheduleJob('0 22 * * *', function(){
       message.channel.send('**Son las 23:00**: Mor empieza ya a sentirse cansado, le queda 1 hora de actividad.');
@@ -116,4 +116,3 @@ bot.on('message', function(message) {
     });
   }
 });
-
