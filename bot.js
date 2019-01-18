@@ -106,7 +106,7 @@ bot.on('message', function(message) {
       message.channel.send('**Son las 21:00**: Para cenar hoy... clavos.');
     });
     var j21 = schedule.scheduleJob('0 21 * * *', function(){
-      message.channel.send('**Son las 22:00**: Peli y mantita en casa de' + '\xa0' + (frasespareja()) + '\xa0' + ', hoy toca: ' + '\xa0' + (frasestvcine()));
+      message.channel.send('**Son las 22:00**: Peli y mantita en casa de' + '\xa0' + (frasespareja()) + ', hoy toca: ' + '\xa0' + (frasestvcine()));
     });
     var j22 = schedule.scheduleJob('0 22 * * *', function(){
       message.channel.send('**Son las 23:00**: Mor empieza ya a sentirse cansado, le queda 1 hora de actividad.');
