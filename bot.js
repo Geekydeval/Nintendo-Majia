@@ -9,7 +9,7 @@ bot.on('ready', function() {
 });
 
 function frasescomida() {
-  var rand = ['Cuervito fresco', 'Ensalada de doomed', 'Chuletón a la drama', 'Direct a la provenzal', 'Cuervo con salsa de Allegrian', 'Foskitos', 'Una selección de tacos que llegarán dentro de 6 horas'
+  var rand = ['Cuervito fresco', 'Ensalada de doomed', 'Chuletón a la drama', 'Direct a la provenzal', 'Cuervo con salsa de Allegrian', 'Foskitos', 'Una selección de tacos que llegarán dentro de 6 horas',
               'Una ración de ports recién hechos'];
 
   return rand[Math.floor(Math.random()*rand.length)];
@@ -76,7 +76,7 @@ bot.on('message', function(message) {
       message.channel.send('**Son las 12:00**: ¿Que noticia habrá publicado hoy Cristina? seguro que Mor está deseando leerla de forma sosegada.');
     });
    var j12 = schedule.scheduleJob('0 12 * * *', function(){
-      message.channel.send('**Son las 13:00**: El menú de hoy es cuervito fresco.');
+      message.channel.send('**Son las 13:00**: El menú de hoy es ' + (frasescomida()));
     });
     var j13 = schedule.scheduleJob('0 13 * * *', function(){
       message.channel.send('**Son las 14:00**: 2 horas hasta el anuncio del direct, esto empieza a ponerse interesante');
