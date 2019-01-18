@@ -76,7 +76,7 @@ bot.on('message', function(message) {
       message.channel.send('**Son las 12:00**: ¿Que noticia habrá publicado hoy Cristina? seguro que Mor está deseando leerla de forma sosegada.');
     });
     var j12 = schedule.scheduleJob('0 12 * * *', function(){
-      message.channel.send('**Son las 13:00**: El menú de hoy es ' + (frasescomida()));
+      message.channel.send('**Son las 13:00**: El menú de hoy es una ración de ports');
     });
     var j13 = schedule.scheduleJob('0 13 * * *', function(){
       message.channel.send('**Son las 14:00**: 2 horas hasta el anuncio del direct, esto empieza a ponerse interesante');
