@@ -23,6 +23,12 @@ function frasescena() {
   return rand[Math.floor(Math.random()*rand.length)];
 }
 
+function frasesmañana() {
+  var rand = [', Al que madruga Dios lo ayuda, o en este caso consigue su Pokémon.', ', hoy será un día productivo, mucho ánimo', ', quitate esas legañas', ', que bien se estaría de nuevo en la cama ¿verdad?'];
+
+  return rand[Math.floor(Math.random()*rand.length)];
+}
+
 function frasestvcine() {
   var rand = ['Zafarrancho en el Rancho','El vengador tóxico', 'El ataque de los tomates asesinos', 'Waterworld', 'Un ratoncito duro de roer', 'Solo en casa', 'Babe: el cerdito valiente', 'Jumanji', 'Cariño he encogido a los niños',
               'Casper y la mágica wendy', 'Superagente Cody Banks', 'Como perros y gatos', 'La tostadora valiente', 'Manuelita', 'Dragon Ball Evolution', 'Los payasos asesinos del espacio exterior', 'Castores Zombies', 'Catwoman',
@@ -118,7 +124,7 @@ bot.on('message', function(message) {
       message.channel.send('**Son las 01:00**: Quetz joins the battle.');
     });
     var j1 = schedule.scheduleJob('0 1 * * *', function(){
-      message.channel.send('**Son las 02:00**: ¿Estara' + '\xa0' + (frasesverbo()) + '\xa0' + 'ya' + '\xa0' + frasesusuario());
+      message.channel.send('**Son las 02:00**: ¿Estara' + '\xa0' + (frasesverbo()) + '\xa0' + 'ya' + '\xa0' + frasesusuario() + '\xa0' + '?');
     });
     var j2 = schedule.scheduleJob('0 2 * * *', function(){
       message.channel.send('**Son las 03:00**: PERFECTO GIUSSEPE 🦉');
@@ -133,7 +139,7 @@ bot.on('message', function(message) {
       message.channel.send('**Son las 06:00**: Pachamadrugon, ufff que sueño.');
     });
     var j6 = schedule.scheduleJob('0 6 * * *', function(){
-      message.channel.send('**Son las 07:00**: Buenos días' + '\xa0' + (frasesusuario()) +', Al que madruga Dios lo ayuda, o en este caso consigue su Pokémon.');
+      message.channel.send('**Son las 07:00**: Buenos días' + '\xa0' + (frasesusuario()) + '\xa0' + (frasesmañana()));
     });
     var j7 = schedule.scheduleJob('0 7 * * *', function(){
       message.channel.send('**Son las 08:00**: Hora de ir al cole, Frijolito, no te olvides del almuerzo.');
