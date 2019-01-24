@@ -12,7 +12,7 @@ function frasescomida() {
   var rand = ['Cuervito fresco', 'Ensalada de doomed', 'Chuletón a la drama', 'Direct a la provenzal', 'Cuervo con salsa de Allegrian', 'Foskitos', 'Una selección de tacos que llegarán dentro de 6 horas',
               'Una ración de ports recién hechos', 'Coulant de Chocodrama', 'Cuervo empanado con patatas a lo pobre', 'Criadillas de Kimishima', 'Huevos estrellados del maestro furukawa', 'Patata rellena de doomed',
               'Jamón curado en #Bienvenidos', 'Inklings en su salsa', 'Octolings en tempura', 'Sushi porteado desde la bahia de 3DS', 'Pizza a la Italojapoamericana', 'Parrillada de toads', 'Una de canales nuevos',
-              'un dramita fresquisimo de la bahia de Nintendo Majia' ];
+              'un dramita fresquisimo de la bahia de Nintendo Majia', 'Costillitas de Yoshi'];
 
   return rand[Math.floor(Math.random()*rand.length)];
 }
@@ -23,24 +23,18 @@ function frasescena() {
   return rand[Math.floor(Math.random()*rand.length)];
 }
 
-function frasesmañana() {
-  var rand = [', Al que madruga Dios lo ayuda, o en este caso consigue su Pokémon.', ', hoy será un día productivo, mucho ánimo', ', quitate esas legañas', ', que bien se estaría de nuevo en la cama ¿verdad?',
-              ', se te ve con cara de sueño.'];
-
-  return rand[Math.floor(Math.random()*rand.length)];
-}
-
 function frasestvcine() {
   var rand = ['Zafarrancho en el Rancho','El vengador tóxico', 'El ataque de los tomates asesinos', 'Waterworld', 'Un ratoncito duro de roer', 'Solo en casa', 'Babe: el cerdito valiente', 'Jumanji', 'Cariño he encogido a los niños',
               'Casper y la mágica wendy', 'Superagente Cody Banks', 'Como perros y gatos', 'La tostadora valiente', 'Manuelita', 'Dragon Ball Evolution', 'Los payasos asesinos del espacio exterior', 'Castores Zombies', 'Catwoman',
-              'Los 4 fantásticos', 'Resident Evil, la de la Jovovich', 'Star Wars 1: La amenaza fantasma', 'Zeitgeist', 'Papa Francisco: Un hombre de palabra'];
+              'Los 4 fantásticos', 'Resident Evil, la de la Jovovich', 'Star Wars 1: La amenaza fantasma', 'Zeitgeist', 'Papa Francisco: Un hombre de palabra', 'La venganza del conde de Montecristo', 'En busca del valle encantado',
+              'Pokémon 2: El Poder de Uno', 'Digimon: La película'];
 
   return rand[Math.floor(Math.random()*rand.length)];
 }
 
 function frasesusuario() {
   var rand = ['Mor', 'Xilos', 'Hector', 'Spoon', 'Ralye', 'Alem', 'Pachita', 'Morro', 'Allegrian', 'Tonio', 'Irvine', 'Aretno',
-              'Ranger verde', 'Rul', 'Anti', 'Selve', 'Lanir', 'Frijolito', 'Kamalito', 'Darkam', 'Novalito', 'On3', 'Soe', 'Quetz',
+              'El ranger verde', 'Rul', 'Anti', 'Selve', 'Lanir', 'Frijolito', 'Kamalito', 'Darkam', 'Novalito', 'On3', 'Soe', 'Quetz',
               'Avelgoth', 'Dnes', 'Emlds', 'Heyt', 'Togawa', 'Werram', 'Turok', 'Frodonag'];
 
   return rand[Math.floor(Math.random()*rand.length)];
@@ -73,7 +67,16 @@ function frasesverbo() {
               'diciendo cuan ofendido está', 'contruyendo un rascacielos', 'catapultando su carrera política', 'cagando', 'maldiciendo las noticias de Cristina', 'trabajando con unas condiciones deplorables',
               'dando misa', 'vendiendo la moto', 'vendiendo humo', 'rezando por nosotros', 'haciendo ports', 'abriendo canales absurdos', 'haciendo memes sin gracia', 'programando bots inutiles', 'regalando Forzas, halos y Gears',
               'dejando caer nuevos juegos', 'comiendo cuervo', 'soltando gilipolleces sin fundamento', 'haciendo barbacoas', 'contratando gente', 'chasqueando los dedos', 'borracho', 'durmiendo', 'viendo el próximo direct',
-              'destilando licor para aguantar este año tan doomed', 'viendo pornografía', 'gritando cual demente'];
+              'destilando licor para aguantar este año tan doomed', 'viendo pornografía', 'gritando cual demente', 'baneando usuarios', 'haciendo exhibicionismo', 'desvariando', 'haciendo datamining',
+              'levantando un muro', 'posteando noticias'];
+
+  return rand[Math.floor(Math.random()*rand.length)];
+}
+
+function frasesverbo2() {
+  var rand = ['dramear', 'lamentar nuestra penosa existencia', 'maldecir a Nintendo', 'esparcir falsos rumores por Twitter para que Vandal los publique como noticia contrastada', 'emborracharse', 'teorizar sobre cuando será el próximo direct',
+              'reirse de Markomaro', 'banear a Selve para solucionar nuestros problemas', 'hacer una manifestación no violenta con fuegos y hostias volando', 'predecir cuando Miyamoto se irá de Nintendo', 'procrastinar como siempre',
+              'pedir ports', 'hacer una barbacoa expectacular como las de Retro'];
 
   return rand[Math.floor(Math.random()*rand.length)];
 }
@@ -82,19 +85,21 @@ function fraseslugar() {
   var rand = ['en ResetERA', 'en Vandal', 'en Nintendo Majia', 'en el cuartel general de Nintendo', 'en la junta de accionistas de Nintendo', 'en un hilo de Twitter', 'en el hilo de ventas de Vandal', 'en el hilo de ventas de ERA',
               'en su blog personal', 'por todas partes', 'en un vídeo de youtube', 'en la ciudad de Toronto', 'en Barcelona', 'en un baño random de mala muerte', 'en el Vaticano', 'en su cuenta de Tinder', 'en chatroulette', 'en el cielo',
               'en un pequeño cubiculo en el sotano de Nintendo', 'en Xbox', 'en la Switch', 'en Playstation', 'en Steam', 'en el sitio habitual', 'en Fortnite', 'en Sea of Thieves', 'en las oficinas', 'en el direct', 'en Linkedin', 'en una bañera',
-              'al lado de la comisaría', 'en la plaza del pueblo'];
+              'al lado de la comisaría', 'en la plaza del pueblo', 'en la sección de pornografía homosexual de Pornhub', 'en un bar cutre', 'en la puerta del colegio', 'alrededor de la casa blanca'];
 
   return rand[Math.floor(Math.random()*rand.length)];
 }
 
 function frases1madrugada() {
-  var rand = ['Quetz **_*JOINS THE BATTLE*_**', ''];
+  var rand = ['**_*JOINS THE BATTLE*_**', 'duerme placidamente', 'observa desde las sombras lo que aquí se comenta', 'sufre de insomnio y por ello sigue aquí', 'está en medio de un viaje astral',
+              'está experimentando un viaje psicotrópico a través del lo-fi, la electronica experimental y las sustancias estupefacientes', 'está en la cama pero con los ojos abiertos pensando en cosas del pasado',
+              'lamenta que este espacio del reloj sea tan soso', 'está viviendo lo mismo que el anuncio de la marmota', 'está pensando por qué está aún despierto leyendo esto'];
 
   return rand[Math.floor(Math.random()*rand.length)];
 }
 
 function frases3madrugada() {
-  var rand = ['**_*PERFECTO GIUSSEPE*_** 🦉',];
+  var rand = ['**_*PERFECTO GIUSSEPE*_** 🦉', 'No puedo ver ni un minuuuuuuuuuuto\nDe mi serie favoriiiiiiita\nEn seguida me quedo frita\nMarmota ya es mi colchón\nY ya duerme como yoooooo'];
 
   return rand[Math.floor(Math.random()*rand.length)];
 }
@@ -111,9 +116,17 @@ function frases5madrugada() {
   return rand[Math.floor(Math.random()*rand.length)];
 }
 
+function frasesmañana() {
+  var rand = [', Al que madruga Dios lo ayuda, o en este caso consigue su Pokémon.', ', hoy será un día productivo, mucho ánimo', ', quitate esas legañas', ', que bien se estaría de nuevo en la cama ¿verdad?',
+              ', se te ve con cara de sueño.', ', joder, ya tienes mala cara.', ', piensa que hoy tampoco habrá direct', ', es otro día lleno de clickbaits y decepción'];
+
+  return rand[Math.floor(Math.random()*rand.length)];
+}
+
+
 function frases14dia() {
   var rand = ['2 horas, esto empieza a ponerse interesante', 'Que rica está la comida', '¿Notáis como se acerca?\n\nhttps://giphy.com/gifs/jurassic-park-movie-t49DdnoviCLrG', 'ahora mismo deberíais estar comiendo',
-              'Ñam Ñam', 'Si en 2 horas no hay direct le pediré a moderación que expulse a Rul', '¿Nos deleitará Nintendo con un direct dentro de **2 HORAS**?'];
+              'Ñam Ñam', 'Si en 2 horas no hay direct le pediré a moderación que expulse a Rul', '¿Nos deleitará Nintendo con un direct dentro de **2 HORAS**?', ''];
 
   return rand[Math.floor(Math.random()*rand.length)];
 }
@@ -126,13 +139,13 @@ bot.on('message', function(message) {
     console.log('Has metido la clave');
 
     var j0 = schedule.scheduleJob('0 0 * * *', function(){
-      message.channel.send('**Son las 01:00**: Quetz joins the battle.');
+      message.channel.send('**Son las 01:00**:' + '\xa0' + (frasesusuario()) + '\xa0' + (frases1madrugada()));
     });
     var j1 = schedule.scheduleJob('0 1 * * *', function(){
       message.channel.send('**Son las 02:00**: ¿Estara' + '\xa0' + (frasesverbo()) + '\xa0' + 'ya' + '\xa0' + frasesusuario() + '\xa0' + '?');
     });
     var j2 = schedule.scheduleJob('0 2 * * *', function(){
-      message.channel.send('**Son las 03:00**: PERFECTO GIUSSEPE 🦉');
+      message.channel.send('**Son las 03:00**:' + '\xa0' + (frases3madrugada()));
     });
     var j3 = schedule.scheduleJob('0 3 * * *', function(){
       message.channel.send('**Son las 04:00**:' + '\xa0' + (frases4madrugada()));
@@ -153,7 +166,7 @@ bot.on('message', function(message) {
       message.channel.send('**Son las 09:00**: No se olviden del desayuno, la comida mas importante del día, reyes y reinas.');
     });
     var j9 = schedule.scheduleJob('0 9 * * *', function(){
-      message.channel.send('**Son las 10:00**:' + '\xa0' + (frasespersona()) + '\xa0' + 'esta' + '\xa0' + (frasesverbo()) + '\xa0' + (fraseslugar()) + '\xa0' + 'ahora mismo, que pícaro.');
+      message.channel.send('**Son las 10:00**:' + '\xa0' + (frasespersona()) + '\xa0' + 'esta' + '\xa0' + (frasesverbo()) + '\xa0' + (fraseslugar()) + '\xa0' + 'ahora mismo, que barbaro.');
     });
     var j10 = schedule.scheduleJob('0 10 * * *', function(){
       message.channel.send('**Son las 11:00**: ¿Ya ha hecho caca' + '\xa0' + (frasesusuario()) + '?');
@@ -177,13 +190,13 @@ bot.on('message', function(message) {
       message.channel.send('**Son las 17:00**: Tiene toda la pinta de que mañana habrá direct.');
     });
     var j17 = schedule.scheduleJob('0 17 * * *', function(){
-      message.channel.send('**Son las 18:00**: Se ha quedado una buena tarde para dramear, ¿no creen?');
+      message.channel.send('**Son las 18:00**: Se ha quedado una buena tarde para' + '\xa0' + (frasesverbo2()) + ', ¿no creen?');
     });
     var j18 = schedule.scheduleJob('0 18 * * *', function(){
       message.channel.send('**Son las 19:00**: ¿Habrán baneado hoy a' +'\xa0' + (frasesusuario()) + '?');
     });
     var j19 = schedule.scheduleJob('0 19 * * *', function(){
-      message.channel.send('**Son las 20:00**: ¿Ha fichado ya Spoon?');
+      message.channel.send('**Son las 20:00**: Ha nacido una estrella y su nombre es' + '\xa0' + (frasesusuario()));
     });
     var j20 = schedule.scheduleJob('0 20 * * *', function(){
       message.channel.send('**Son las 21:00**: Para cenar hoy:' + '\xa0' + (frasescena()));
@@ -192,7 +205,7 @@ bot.on('message', function(message) {
       message.channel.send('**Son las 22:00**: Peli y mantita en casa de' + '\xa0' + (frasespareja()) + ', hoy toca:' + '\xa0' + (frasestvcine()));
     });
     var j22 = schedule.scheduleJob('0 22 * * *', function(){
-      message.channel.send('**Son las 23:00**: Mor empieza ya a sentirse cansado, le queda 1 hora de actividad.');
+      message.channel.send('**Son las 23:00**:' + '\xa0' + (frasesusuario()) + '\xa0' + 'empieza ya a sentirse cansado, le queda 1 hora de actividad.');
     });
     var j23 = schedule.scheduleJob('0 23 * * *', function(){
       message.channel.send('**Son las 00:00**: ¿Cual será el dramita de hoy? ansioso estoy por descubrirlo');
