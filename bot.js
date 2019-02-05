@@ -27,7 +27,7 @@ function frasestvcine() {
   var rand = ['Zafarrancho en el Rancho','El vengador tóxico', 'El ataque de los tomates asesinos', 'Waterworld', 'Un ratoncito duro de roer', 'Solo en casa', 'Babe: el cerdito valiente', 'Jumanji', 'Cariño he encogido a los niños',
               'Casper y la mágica wendy', 'Superagente Cody Banks', 'Como perros y gatos', 'La tostadora valiente', 'Manuelita', 'Dragon Ball Evolution', 'Los payasos asesinos del espacio exterior', 'Castores Zombies', 'Catwoman',
               'Los 4 fantásticos', 'Resident Evil, la de la Jovovich', 'Star Wars 1: La amenaza fantasma', 'Zeitgeist', 'Papa Francisco: Un hombre de palabra', 'La venganza del conde de Montecristo', 'En busca del valle encantado',
-              'Pokémon 2: El Poder de Uno', 'Digimon: La película'];
+              'Pokémon 2: El Poder de Uno', 'Digimon: La película', 'Un canguro super duro', 'San Andrés', 'Chicken Run: Evasión en la granja'];
 
   return rand[Math.floor(Math.random()*rand.length)];
 }
@@ -57,7 +57,7 @@ function frasesdirect() {
 function frasespersona() {
   var rand = ['Un simpatico redactor de Vandal', 'Un simpatico Insider', 'Miyamoto', 'Furukawa', 'Leaky Pandy', 'Markomaro', 'Allegrian', 'Un usuario random de ERA', 'Lanir', 'Kimishima',
               'Xilos', 'Mor', 'Un chino random', 'El Papa Francisco', 'Marcus Sellars', 'Sakurai', 'Reggie', 'Phil Spencer', 'Emily', 'Un retrasado habitual', 'Retro Studios', 'Koizumi',
-              'Pachita'];
+              'Pachita', 'Tanabe'];
 
   return rand[Math.floor(Math.random()*rand.length)];
 }
@@ -68,7 +68,7 @@ function frasesverbo() {
               'dando misa', 'vendiendo la moto', 'vendiendo humo', 'rezando por nosotros', 'haciendo ports', 'abriendo canales absurdos', 'haciendo memes sin gracia', 'programando bots inutiles', 'regalando Forzas, halos y Gears',
               'dejando caer nuevos juegos', 'comiendo cuervo', 'soltando gilipolleces sin fundamento', 'haciendo barbacoas', 'contratando gente', 'chasqueando los dedos', 'borracho', 'durmiendo', 'viendo el próximo direct',
               'destilando licor para aguantar este año tan doomed', 'viendo pornografía', 'gritando cual demente', 'baneando usuarios', 'haciendo exhibicionismo', 'desvariando', 'haciendo datamining',
-              'levantando un muro', 'posteando noticias'];
+              'levantando un muro', 'posteando noticias', 'cancelando proyectos', 'tocando el banjo'];
 
   return rand[Math.floor(Math.random()*rand.length)];
 }
@@ -76,7 +76,8 @@ function frasesverbo() {
 function frasesverbo2() {
   var rand = ['dramear', 'lamentar nuestra penosa existencia', 'maldecir a Nintendo', 'esparcir falsos rumores por Twitter para que Vandal los publique como noticia contrastada', 'emborracharse', 'teorizar sobre cuando será el próximo direct',
               'reirse de Markomaro', 'banear a Selve para solucionar nuestros problemas', 'hacer una manifestación no violenta con fuegos y hostias volando', 'predecir cuando Miyamoto se irá de Nintendo', 'procrastinar como siempre',
-              'pedir ports', 'hacer una barbacoa expectacular como las de Retro'];
+              'pedir ports', 'hacer una barbacoa expectacular como las de Retro', 'echarse unos smashes para romper relaciones', 'jugar al Mario Party y ver como solo hay 4 tableros', 'montar una pequeña tangana donde caben todos',
+              'partirle las piernas a Mor, que hijo de puta', 'gritar a los  4 vientos ¡¡¡DIRECT!!! y ver como nos envian a todos a #bienvenidos', 'un golpe de estado', 'invadir Almería'];
 
   return rand[Math.floor(Math.random()*rand.length)];
 }
@@ -85,7 +86,8 @@ function fraseslugar() {
   var rand = ['en ResetERA', 'en Vandal', 'en Nintendo Majia', 'en el cuartel general de Nintendo', 'en la junta de accionistas de Nintendo', 'en un hilo de Twitter', 'en el hilo de ventas de Vandal', 'en el hilo de ventas de ERA',
               'en su blog personal', 'por todas partes', 'en un vídeo de youtube', 'en la ciudad de Toronto', 'en Barcelona', 'en un baño random de mala muerte', 'en el Vaticano', 'en su cuenta de Tinder', 'en chatroulette', 'en el cielo',
               'en un pequeño cubiculo en el sotano de Nintendo', 'en Xbox', 'en la Switch', 'en Playstation', 'en Steam', 'en el sitio habitual', 'en Fortnite', 'en Sea of Thieves', 'en las oficinas', 'en el direct', 'en Linkedin', 'en una bañera',
-              'al lado de la comisaría', 'en la plaza del pueblo', 'en la sección de pornografía homosexual de Pornhub', 'en un bar cutre', 'en la puerta del colegio', 'alrededor de la casa blanca'];
+              'al lado de la comisaría', 'en la plaza del pueblo', 'en la sección de pornografía homosexual de Pornhub', 'en un bar cutre', 'en la puerta del colegio', 'alrededor de la casa blanca', 'en la parroquia', 'en alcoholicos anónimos',
+              'en un comedor de cáritas', 'en hacienda', 'en las oficinas de retro', 'en la gala de los Oscar', 'en casa de Reggie'];
 
   return rand[Math.floor(Math.random()*rand.length)];
 }
@@ -105,7 +107,7 @@ function frases3madrugada() {
 }
 
 function frases4madrugada() {
-  var rand = ['¿Ve ud. esto? Inserte su publicidad aquí y haga que otros le vean a usted.', '¿Te crees Quetz? TIRA A LA CAMA',];
+  var rand = ['¿Ve ud. esto? Inserte su publicidad aquí y haga que otros le vean a usted.', '¿Te crees Quetz? TIRA A LA CAMA', 'Una partidita mas y a la cama, ¿a que si?'];
 
   return rand[Math.floor(Math.random()*rand.length)];
 }
@@ -118,7 +120,8 @@ function frases5madrugada() {
 
 function frasesmañana() {
   var rand = [', Al que madruga Dios lo ayuda, o en este caso consigue su Pokémon.', ', hoy será un día productivo, mucho ánimo', ', quitate esas legañas', ', que bien se estaría de nuevo en la cama ¿verdad?',
-              ', se te ve con cara de sueño.', ', joder, ya tienes mala cara.', ', piensa que hoy tampoco habrá direct', ', es otro día lleno de clickbaits y decepción'];
+              ', se te ve con cara de sueño.', ', joder, ya tienes mala cara.', ', piensa que hoy tampoco habrá direct', ', es otro día lleno de clickbaits y decepción', ', tienes cara de haber tenido otra vez esa pesadilla',
+              ', pretendía tener una frase motivacional para ti pero no estoy motivado', ', hoy puede ser tu gran día (me han dicho que hay direct)'];
 
   return rand[Math.floor(Math.random()*rand.length)];
 }
@@ -126,7 +129,22 @@ function frasesmañana() {
 
 function frases14dia() {
   var rand = ['2 horas, esto empieza a ponerse interesante', 'Que rica está la comida', '¿Notáis como se acerca?\n\nhttps://giphy.com/gifs/jurassic-park-movie-t49DdnoviCLrG', 'ahora mismo deberíais estar comiendo',
-              'Ñam Ñam', 'Si en 2 horas no hay direct le pediré a moderación que expulse a Rul', '¿Nos deleitará Nintendo con un direct dentro de **2 HORAS**?', ''];
+              'Ñam Ñam', 'Si en 2 horas no hay direct le pediré a moderación que expulse a Rul', '¿Nos deleitará Nintendo con un direct dentro de **2 HORAS**?', 'Hoy no hay direct, dejadlo estar ya, cansinos',
+              'comidita y siesta, ole que ole'];
+
+  return rand[Math.floor(Math.random()*rand.length)];
+}
+
+function frases20tarde() {
+  var rand = ['nacido una estrella', 'sido avistado un exhibicionista en las proximidades', 'perdido los papeles una persona', 'sido detenido un usuario que tiraba 3DS desde un balcón', 'sucumbido a la falta de Direct y se ha quitado la vida',
+              'sido encontrado abrazado a un durum en las escaleras de un portal', 'estado comiendose un donut'];
+
+  return rand[Math.floor(Math.random()*rand.length)];
+}
+
+function frases23noche() {
+  var rand = ['empieza ya a sentirse cansado, le queda 1 hora de actividad.', 'está a tope video una película, no le hace ni caso al discord', 'está cagando de tal forma que parece Thor empuñando el Mjolnir',
+              'ha dicho que vuestra madre es gorda', ''];
 
   return rand[Math.floor(Math.random()*rand.length)];
 }
@@ -134,81 +152,222 @@ function frases14dia() {
 ////////////////////////////////////////////////////////////////////////////////
 
 bot.on('message', function(message) {
-  if (message.content === "$loop") {
+  if (message.content === "$iniciate") {
+    ///
+    var rule1 = new schedule.RecurrenceRule();
+    rule1.dayOfWeek = [0, new schedule.Range(1, 6)];
+    rule1.hour = 01;
+    rule1.minute = 0;
 
-    console.log('Has metido la clave');
-
-    var j0 = schedule.scheduleJob('0 0 * * *', function(){
+    var j = schedule.scheduleJob(rule1, function(){
       message.channel.send('**Son las 01:00**:' + '\xa0' + (frasesusuario()) + '\xa0' + (frases1madrugada()));
     });
-    var j1 = schedule.scheduleJob('0 1 * * *', function(){
+    ///
+    var rule2 = new schedule.RecurrenceRule();
+    rule2.dayOfWeek = [0, new schedule.Range(1, 6)];
+    rule2.hour = 02;
+    rule2.minute = 0;
+
+    var j = schedule.scheduleJob(rule2, function(){
       message.channel.send('**Son las 02:00**: ¿Estara' + '\xa0' + (frasesverbo()) + '\xa0' + 'ya' + '\xa0' + frasesusuario() + '\xa0' + '?');
     });
-    var j2 = schedule.scheduleJob('0 2 * * *', function(){
+    ///
+    var rule3 = new schedule.RecurrenceRule();
+    rule3.dayOfWeek = [0, new schedule.Range(1, 6)];
+    rule3.hour = 03;
+    rule3.minute = 0;
+
+    var j = schedule.scheduleJob(rule3, function(){
       message.channel.send('**Son las 03:00**:' + '\xa0' + (frases3madrugada()));
     });
-    var j3 = schedule.scheduleJob('0 3 * * *', function(){
+    ///
+    var rule4 = new schedule.RecurrenceRule();
+    rule4.dayOfWeek = [0, new schedule.Range(1, 6)];
+    rule4.hour = 04;
+    rule4.minute = 0;
+
+    var j = schedule.scheduleJob(rule4, function(){
       message.channel.send('**Son las 04:00**:' + '\xa0' + (frases4madrugada()));
     });
-    var j4 = schedule.scheduleJob('0 4 * * *', function(){
+    ///
+    var rule5 = new schedule.RecurrenceRule();
+    rule5.dayOfWeek = [0, new schedule.Range(1, 6)];
+    rule5.hour = 05;
+    rule5.minute = 0;
+
+    var j = schedule.scheduleJob(rule5, function(){
       message.channel.send('**Son las 05:00**: Por el _*CENSURED*_ te la...');
     });
-    var j5 = schedule.scheduleJob('0 5 * * *', function(){
+    ///
+    var rule6 = new schedule.RecurrenceRule();
+    rule6.dayOfWeek = [1, new schedule.Range(2, 5)];
+    rule6.hour = 06;
+    rule6.minute = 0;
+
+    var j = schedule.scheduleJob(rule6, function(){
       message.channel.send('**Son las 06:00**: Pachamadrugon, ufff que sueño.');
     });
-    var j6 = schedule.scheduleJob('0 6 * * *', function(){
+    ///
+    var rule7 = new schedule.RecurrenceRule();
+    rule7.dayOfWeek = [1, new schedule.Range(2, 5)];
+    rule7.hour = 07;
+    rule7.minute = 0;
+
+    var j = schedule.scheduleJob(rule7, function(){
       message.channel.send('**Son las 07:00**: Buenos días' + '\xa0' + (frasesusuario()) + (frasesmañana()));
     });
-    var j7 = schedule.scheduleJob('0 7 * * *', function(){
-      message.channel.send('**Son las 08:00**: Hora de ir al cole, Frijolito, no te olvides del almuerzo.');
+    ///
+    var rule8 = new schedule.RecurrenceRule();
+    rule8.dayOfWeek = [1, new schedule.Range(2, 5)];
+    rule8.hour = 08;
+    rule8.minute = 0;
+
+    var j = schedule.scheduleJob(rule8, function(){
+       message.channel.send('**Son las 08:00**: Hora de ir al cole, Frijolito, no te olvides del almuerzo.');
     });
-    var j8 = schedule.scheduleJob('0 8 * * *', function(){
-      message.channel.send('**Son las 09:00**: No se olviden del desayuno, la comida mas importante del día, reyes y reinas.');
+    ///
+    var rule9 = new schedule.RecurrenceRule();
+    rule9.dayOfWeek = [1, new schedule.Range(2, 5)];
+    rule9.hour = 09;
+    rule9.minute = 0;
+
+    var j = schedule.scheduleJob(rule9, function(){
+       message.channel.send('**Son las 09:00**: No se olviden del desayuno, la comida mas importante del día, reyes y reinas.');
     });
-    var j9 = schedule.scheduleJob('0 9 * * *', function(){
-      message.channel.send('**Son las 10:00**:' + '\xa0' + (frasespersona()) + '\xa0' + 'esta' + '\xa0' + (frasesverbo()) + '\xa0' + (fraseslugar()) + '\xa0' + 'ahora mismo, que barbaro.');
+    ///
+    var rule10 = new schedule.RecurrenceRule();
+    rule10.dayOfWeek = [0, new schedule.Range(1, 6)];
+    rule10.hour = 10;
+    rule10.minute = 0;
+
+    var j = schedule.scheduleJob(rule10, function(){
+       message.channel.send('**Son las 10:00**:' + '\xa0' + (frasespersona()) + '\xa0' + 'esta' + '\xa0' + (frasesverbo()) + '\xa0' + (fraseslugar()) + '\xa0' + 'ahora mismo, que barbaro.');
     });
-    var j10 = schedule.scheduleJob('0 10 * * *', function(){
-      message.channel.send('**Son las 11:00**: ¿Ya ha hecho caca' + '\xa0' + (frasesusuario()) + '?');
+    ///
+    var rule11 = new schedule.RecurrenceRule();
+    rule11.dayOfWeek = [0, new schedule.Range(1, 6)];
+    rule11.hour = 11;
+    rule11.minute = 0;
+
+    var j = schedule.scheduleJob(rule11, function(){
+       message.channel.send('**Son las 11:00**: ¿Ya ha hecho caca' + '\xa0' + (frasesusuario()) + '?');
     });
-    var j11 = schedule.scheduleJob('0 11 * * *', function(){
-      message.channel.send('**Son las 12:00**: ¿Que estará haciendo' + '\xa0' + (frasespersona()) + '? seguro que' + '\xa0' + (frasesusuario()) + '\xa0' + 'está' + '\xa0' + (frasesverbo()) + '\xa0' + 'de forma sosegada.');
+    ///
+    var rule12 = new schedule.RecurrenceRule();
+    rule12.dayOfWeek = [0, new schedule.Range(1, 6)];
+    rule12.hour = 12;
+    rule12.minute = 0;
+
+    var j = schedule.scheduleJob(rule12, function(){
+       message.channel.send('**Son las 12:00**: ¿Que estará haciendo' + '\xa0' + (frasespersona()) + '? seguro que' + '\xa0' + (frasesusuario()) + '\xa0' + 'está' + '\xa0' + (frasesverbo()) + '\xa0' + 'de forma sosegada.');
     });
-    var j12 = schedule.scheduleJob('0 12 * * *', function(){
-      message.channel.send('**Son las 13:00**: El menú de hoy es:' + '\xa0' + (frasescomida()));
+    ///
+    var rule13 = new schedule.RecurrenceRule();
+    rule13.dayOfWeek = [0, new schedule.Range(1, 6)];
+    rule13.hour = 13;
+    rule13.minute = 0;
+
+    var j = schedule.scheduleJob(rule13, function(){
+       message.channel.send('**Son las 13:00**: El menú de hoy es:' + '\xa0' + (frasescomida()));
     });
-    var j13 = schedule.scheduleJob('0 13 * * *', function(){
-      message.channel.send('**Son las 14:00**:' + '\xa0' + (frases14dia()));
+    ///
+    var rule14 = new schedule.RecurrenceRule();
+    rule14.dayOfWeek = [1, new schedule.Range(2, 4)];
+    rule14.hour = 14;
+    rule14.minute = 0;
+
+    var j = schedule.scheduleJob(rule14, function(){
+       message.channel.send('**Son las 14:00**:' + '\xa0' + (frases14dia()));
     });
-    var j14 = schedule.scheduleJob('0 14 * * *', function(){
-      message.channel.send('**Son las 15:00**: OMG, SOLO 1 HORA MAS!!!!');
+    ///
+    var rule15 = new schedule.RecurrenceRule();
+    rule15.dayOfWeek = [1, new schedule.Range(2, 4)];
+    rule15.hour = 15;
+    rule15.minute = 0;
+
+    var j = schedule.scheduleJob(rule15, function(){
+       message.channel.send('**Son las 15:00**: OMG, SOLO 1 HORA MAS!!!!');
     });
-    var j15 = schedule.scheduleJob('0 15 * * *', function(){
-      message.channel.send('**Son las 16:00**:' + '\xa0' + (frasesdirect()));
+    ///
+    var rule16 = new schedule.RecurrenceRule();
+    rule16.dayOfWeek = [1, new schedule.Range(2, 4)];
+    rule16.hour = 16;
+    rule16.minute = 0;
+
+    var j = schedule.scheduleJob(rule16, function(){
+       message.channel.send('**Son las 16:00**:' + '\xa0' + (frasesdirect()));
     });
-    var j16 = schedule.scheduleJob('0 16 * * *', function(){
-      message.channel.send('**Son las 17:00**: Tiene toda la pinta de que mañana habrá direct.');
+    ///
+    var rule17 = new schedule.RecurrenceRule();
+    rule17.dayOfWeek = [1, new schedule.Range(2, 4)];
+    rule17.hour = 17;
+    rule17.minute = 0;
+
+    var j = schedule.scheduleJob(rule17, function(){
+       message.channel.send('**Son las 17:00**: Tiene toda la pinta de que mañana habrá direct.');
     });
-    var j17 = schedule.scheduleJob('0 17 * * *', function(){
+    ///
+    var rule18 = new schedule.RecurrenceRule();
+    rule18.dayOfWeek = [0, new schedule.Range(1, 6)];
+    rule18.hour = 18;
+    rule18.minute = 0;
+
+    var j = schedule.scheduleJob(rule18, function(){
       message.channel.send('**Son las 18:00**: Se ha quedado una buena tarde para' + '\xa0' + (frasesverbo2()) + ', ¿no creen?');
     });
-    var j18 = schedule.scheduleJob('0 18 * * *', function(){
+    ///
+    var rule19 = new schedule.RecurrenceRule();
+    rule19.dayOfWeek = [0, new schedule.Range(1, 6)];
+    rule19.hour = 19;
+    rule19.minute = 0;
+
+    var j = schedule.scheduleJob(rule19, function(){
       message.channel.send('**Son las 19:00**: ¿Habrán baneado hoy a' +'\xa0' + (frasesusuario()) + '?');
     });
-    var j19 = schedule.scheduleJob('0 19 * * *', function(){
+    ///
+    var rule20 = new schedule.RecurrenceRule();
+    rule20.dayOfWeek = [0, new schedule.Range(1, 6)];
+    rule20.hour = 20;
+    rule20.minute = 0;
+
+    var j = schedule.scheduleJob(rule20, function(){
       message.channel.send('**Son las 20:00**: Ha nacido una estrella y su nombre es' + '\xa0' + (frasesusuario()));
     });
-    var j20 = schedule.scheduleJob('0 20 * * *', function(){
+    ///
+    var rule21 = new schedule.RecurrenceRule();
+    rule21.dayOfWeek = [0, new schedule.Range(1, 6)];
+    rule21.hour = 21;
+    rule21.minute = 0;
+
+    var j = schedule.scheduleJob(rule21, function(){
       message.channel.send('**Son las 21:00**: Para cenar hoy:' + '\xa0' + (frasescena()));
     });
-    var j21 = schedule.scheduleJob('0 21 * * *', function(){
+    ///
+    var rule22 = new schedule.RecurrenceRule();
+    rule22.dayOfWeek = [0, new schedule.Range(1, 6)];
+    rule22.hour = 22;
+    rule22.minute = 0;
+
+    var j = schedule.scheduleJob(rule22, function(){
       message.channel.send('**Son las 22:00**: Peli y mantita en casa de' + '\xa0' + (frasespareja()) + ', hoy toca:' + '\xa0' + (frasestvcine()));
     });
-    var j22 = schedule.scheduleJob('0 22 * * *', function(){
-      message.channel.send('**Son las 23:00**:' + '\xa0' + (frasesusuario()) + '\xa0' + 'empieza ya a sentirse cansado, le queda 1 hora de actividad.');
+    ///
+    var rule23 = new schedule.RecurrenceRule();
+    rule23.dayOfWeek = [0, new schedule.Range(1, 6)];
+    rule23.hour = 23;
+    rule23.minute = 0;
+
+    var j = schedule.scheduleJob(rule23, function(){
+       message.channel.send('**Son las 23:00**:' + '\xa0' + (frasesusuario()) + '\xa0' + (frases23noche()));
     });
-    var j23 = schedule.scheduleJob('0 23 * * *', function(){
-      message.channel.send('**Son las 00:00**: ¿Cual será el dramita de hoy? ansioso estoy por descubrirlo');
+    ///
+    var rule24 = new schedule.RecurrenceRule();
+    rule24.dayOfWeek = [0, new schedule.Range(1, 6)];
+    rule24.hour = 23;
+    rule24.minute = 0;
+
+    var j = schedule.scheduleJob(rule24, function(){
+       message.channel.send('**Son las 00:00**: ¿Cual será el dramita de hoy? ansioso estoy por descubrirlo');
     });
   }
 });
