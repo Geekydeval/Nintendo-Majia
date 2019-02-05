@@ -143,7 +143,7 @@ function frases20tarde() {
 }
 
 function frases23noche() {
-  var rand = ['empieza ya a sentirse cansado, le queda 1 hora de actividad.', 'está a tope video una película, no le hace ni caso al discord', 'está cagando de tal forma que parece Thor empuñando el Mjolnir',
+  var rand = ['está a tope video una película, no le hace ni caso al discord', 'está cagando de tal forma que parece Thor empuñando el Mjolnir',
               'ha dicho que vuestra madre es gorda', ''];
 
   return rand[Math.floor(Math.random()*rand.length)];
@@ -363,7 +363,7 @@ bot.on('message', function(message) {
     ///
     var rule24 = new schedule.RecurrenceRule();
     rule24.dayOfWeek = [0, new schedule.Range(1, 6)];
-    rule24.hour = 23;
+    rule24.hour = 24;
     rule24.minute = 0;
 
     var j = schedule.scheduleJob(rule24, function(){
