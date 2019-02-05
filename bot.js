@@ -363,7 +363,7 @@ bot.on('message', function(message) {
     ///
     var rule24 = new schedule.RecurrenceRule();
     rule24.dayOfWeek = [0, new schedule.Range(1, 6)];
-    rule24.hour = 24;
+    rule24.hour = 00;
     rule24.minute = 0;
 
     var j = schedule.scheduleJob(rule24, function(){
