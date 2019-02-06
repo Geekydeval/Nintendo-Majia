@@ -375,7 +375,7 @@ bot.on('message', function(message) {
     rule23.minute = 0;
 
     var j = schedule.scheduleJob(rule23, function(){
-       message.channel.send('**Son las 23:00**: Ha' + '\xa0' + (frasesusuario()) + '\xa0' + (frases23noche()));
+       message.channel.send('**Son las 23:00**:' + '\xa0' + (frasesusuario()) + '\xa0' + (frases23noche()));
     });
     ///
     var rule24 = new schedule.RecurrenceRule();
