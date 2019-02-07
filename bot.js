@@ -97,7 +97,7 @@ function frasestvcine() {
 }
 
 function frasescolegio() {
-  var rand = ['del almuerzo', 'los deberes', 'la mochila', 'la calculadora', 'de dejar la chuleta en casa, al exámen sin trampas', 'el bocadillo La Piara tapa negra, _*MAS BUENO QUE EL PAN*_', 'el dinero para la cantina',
+  var rand = ['el almuerzo', 'los deberes', 'la mochila', 'la calculadora', 'de dejar la chuleta en casa, al exámen sin trampas', 'el bocadillo La Piara tapa negra, _*MAS BUENO QUE EL PAN*_', 'el dinero para la cantina',
               'la autorización firmada para la excursión, que bien lo vas a pasar.', 'la regla, la escuadra y el cartabón, además del compás', 'la flauta', 'los cromos para intercambiar en el recreo'];
 
   return rand[Math.floor(Math.random()*rand.length)];
@@ -240,7 +240,7 @@ bot.on('message', function(message) {
     rule8.minute = 0;
 
     var j = schedule.scheduleJob(rule8, function(){
-       message.channel.send('**Son las 08:00**: Hora de ir al cole, Frijolito,' + '\xa0' + (frasescolegio()));
+       message.channel.send('**Son las 08:00**: Hora de ir al cole, Frijolito, no olvides' + '\xa0' + (frasescolegio()));
     });
     ///
     var rule9 = new schedule.RecurrenceRule();
