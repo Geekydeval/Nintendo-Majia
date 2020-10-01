@@ -1,16 +1,19 @@
 {
   "name": "egcb",
   "version": "0.0.1",
-  "description": "E3 bot 2018",
+  "description": "el gato con botas bot con discord.js",
   "author": "morwull",
   "license": "ISC",
-  "main": "bot.js",
+    "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
    },
   "dependencies": {
     "discord.js": "^11.2.1",
-    "profanities": "^2.6.0"
+    "ffmpeg-binaries": "^4.0.0",
+    "node-schedule-tz": "^1.2.1-4",
+    "opusscript": "0.0.6",
+    "profanities": "^2.6.0",
+    "ytdl-core": "^0.20.4"
   }
 }
-
