@@ -24,7 +24,7 @@ function frasesban() {
 
 
 bot.on('message', function(message) {
-  if ((message.author.id == 190402725224251402 && message.content.match(new RegExp('\\?', 'g')))){
+  if ((message.author.id == 223467770338213888 && message.content.match(new RegExp('\\?', 'g')))){
       message.channel.send((frasespregunta()));
     }
   else if (message.content.match(':banmor:')) {
