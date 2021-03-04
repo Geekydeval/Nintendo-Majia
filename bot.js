@@ -8,24 +8,21 @@ bot.on('ready', function() {
     console.log(bot.user.username);
 });
 ///////
-function frasespregunta() {
-  var rand = ['Si', 'No', 'Ni idea', 'Mejor que te responda otro que yo no tengo ni puta idea xd', 'Hay articulo ya en Vandal sobre eso, por si lo quieres mirar', 'Desde 2018 como mod y lo único que hace este chico es preguntar', 'Hola Allegrian :3', 'Si yo te contara, madre mía',
-              '¿Otra pregunta? joder Alle, ya te vale', 'Google está a un click de distancia', 'Tengo la respuesta en la punta del hocico', '¯|_(ツ)_|¯', 'Con diferencia el peor mod del server, no toma decisiones, solo pregunta cosas, administración de pacotilla',
-              'El server no es tu wikipedia personal, a informarse por ahí', 'Lo de preguntar todo el rato lo haces a posta, verdad? xd', '?', 'lol'];
+function Piscatella() {
+  var rand = ['Piscatella, Gilipollas', 'Dame una G, dame una I, dame una L, dame una I, ¿que tenemos? **GILI**(pollas)!!!', 'Mira que los italianos a mi no me van, pero este en particular...'];
 
   return rand[Math.floor(Math.random()*rand.length)];
 }
 
 function frasesban() {
-  var rand = ['No, stop banning mor', 'Why dont we ban you instead, huh? ¬¬' ];
+  var rand = ['NO HAY COJONES A BANEAR AL ADMIN', 'Vamos a ver, algarroba, Mor es el admin, ¿como coño lo vas a banear?', 'A ti si te vamos a banear, pero de un hostiazo' ];
 
   return rand[Math.floor(Math.random()*rand.length)];
 }
 
-
 bot.on('message', function(message) {
-  if ((message.author.id == 223467770338213888 && message.content.match(new RegExp('\\?', 'g')))){
-      message.channel.send((frasespregunta()));
+  if ((message.content.match(new RegExp('https://twitter.com/MatPiscatella/status', 'g')))){
+      message.channel.send((Piscatella()));
     }
   else if (message.content.match(':banmor:')) {
     message.channel.send((frasesban()));
@@ -34,4 +31,3 @@ bot.on('message', function(message) {
    return;
  }
 });
-
