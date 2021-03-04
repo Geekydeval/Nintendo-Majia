@@ -9,7 +9,7 @@ bot.on('ready', function() {
 });
 ///////
 function Piscatella() {
-  var rand = ['Piscatella, Gilipollas', 'Dame una G, dame una I, dame una L, dame una I, ¿que tenemos? **GILI**(pollas)!!!', 'Mira que los italianos a mi no me van, pero este en particular...'];
+  var rand = ['Piscatella, Gilipollas', 'B-O-C-A-C-H-A-N-C-L-A-S'];
 
   return rand[Math.floor(Math.random()*rand.length)];
 }
