@@ -14,6 +14,12 @@ function Piscatella() {
   return rand[Math.floor(Math.random()*rand.length)];
 }
 
+function Chaos() {
+  var rand = ['chaos'];
+
+  return rand[Math.floor(Math.random()*rand.length)];
+}
+
 function Geoff() {
   var rand = ['A ti quien te ha dado vela en este entierro', 'Joder Geoff, peor que un niño chico, QUE TIENES PELOS EN LOS HUEVOS, HOMBRE', 'Si no te hacemos casito no eres feliz, eh?', 'Madre mía, te dejamos de hacer caso 5 minutos y tienes que llamar la atención, tela.'];
 
@@ -21,7 +27,7 @@ function Geoff() {
 }
 
 function Nibel() {
-  var rand = ['Deja de robar contenido, cateto', '¿Has acreditado ya a los autores correspondientes?¿no? vaya, que inesperado', 'Nibel, Subnormal!', 'Si algo tiene claro este bot es que Nibel es un pícaro ladronzuelo', 'Germano tenías que ser xd'];
+  var rand = ['Deja de robar contenido, cateto', '¿Has acreditado ya a los autores correspondientes? ¿no? Vaya, que inesperado', 'Nibel, Subnormal!', 'Si algo tiene claro este bot es que Nibel es un pícaro ladronzuelo', 'Mira Mor, estoy cansado de siempre decir lo mismo, peleate tu con Nibel o algo y a mi dejame en paz'];
 
   return rand[Math.floor(Math.random()*rand.length)];
 }
@@ -41,6 +47,9 @@ bot.on('message', function(message) {
     }
    else if ((message.content.match(new RegExp('https://twitter.com/Nibellion/status/', 'g')))){
       message.channel.send((Nibel()));
+    }
+    else if ((message.content.match(new RegExp('caos', 'g')))){
+      message.channel.send((Chaos()));
     }
   else if (message.content.match(':banmor:')) {
     message.channel.send((frasesban()));
