@@ -15,7 +15,7 @@ function Piscatella() {
 }
 
 function Chaos() {
-  var rand = ['No se dice caos, se dice _*Chaos*_', 'https://images-ext-1.discordapp.net/external/th6XCiXaaM9qscxOrMFS1CHNlYQdeIwfr_hA4h41k5I/https/pbs.twimg.com/media/E4CkWZAWUAA81c4.jpg', 'Para caos el de este chat',
+  var rand = ['No se dice caos, se dice _*Chaos*_', 'Para caos el de este chat',
                'Im here to kill chaos, bitches'];
 
   return rand[Math.floor(Math.random()*rand.length)];
